@@ -132,7 +132,7 @@ Submit topology to cluster:
 ```sh
 # run cluster for 120 secs
 storm jar target/stormTP-0.1.jar \
-      stormTP.topology.TopologyT1 9001 9005
+      stormTP.topology.TopologyT2 9001 9005
 ```
 Check the Storm UI at http://localhost:8081. 
 
